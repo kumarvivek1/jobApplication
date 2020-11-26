@@ -1,0 +1,25 @@
+
+.table{
+    margin: 5px;
+    width: 100%;
+
+}
+#td{
+    padding: 10px 20px 10px 0;
+    text-align: left;
+}
+
+#th{
+    text-align: left;
+}
+.admin{
+    width:100%;
+    position: center;
+    background-color: white;
+    margin: auto;
+    padding: 15px;
+   
+}
+#caption{
+    display: inline;
+}

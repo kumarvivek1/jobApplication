@@ -1,0 +1,32 @@
+label,input,select,textarea{
+    padding:5px 10px;
+    display: inline-block;
+}
+.form{
+    width:50%;
+    border: 2px solid rgb(22, 19, 19);
+    position: center;
+    background-color: white;
+    margin: auto;
+    padding: 15px;
+}
+
+label{
+    display: block;
+    float: left;
+    
+    width: 250px;
+    text-align: left;
+}
+#input {
+  display: block;
+  float: left;
+  padding-right: 20%;
+
+}
+.warning{
+    color: tomato;
+}
+#submit{
+    background-color: rgb(26, 131, 236);
+}
