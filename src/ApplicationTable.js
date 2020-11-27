@@ -30,14 +30,14 @@ const ApplicationTable = (props) => {
             <h3>{jrole}</h3>
             <caption id='caption'>List of candidates applied for {jrole} role.</caption>
             <table>
-                <thead>
-                    <tr id='th'>
-                        <th>Name</th>
-                        <th>Technical Skills</th>
-                        <th>Experience</th>
-                        <th>Applied Date</th>
-                        <th>View Details</th>
-                        <th>Update Application Status</th>
+                <thead id='thead'>
+                    <tr>
+                        <th id='th'>Name</th>
+                        <th id='th'>Technical Skills</th>
+                        <th id='th'>Experience</th>
+                        <th id='th'>Applied Date</th>
+                        <th id='th'>View Details</th>
+                        <th id='th'>Update Application Status</th>
                     </tr>
                 </thead>
                 <tbody>

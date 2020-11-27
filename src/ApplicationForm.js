@@ -32,7 +32,7 @@ const ApplicationForm = (props) => {
     }
     const handleSubmit = (e) => {
         e.preventDefault()
-        const formData = {
+        const data = {
             "name": name,
             "email": email,
             "phone": contact,
@@ -40,7 +40,7 @@ const ApplicationForm = (props) => {
             "jobTitle": jobrole,
             "experience": experience,
         }
-        submitData(formData)
+        submitData(data)
         if (toggle) {
             setName('')
             setEmail('')

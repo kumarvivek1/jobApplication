@@ -4,11 +4,11 @@ import axios from 'axios'
 
 const AppContainer = (props) => {
     const [toggle, setToggle] = useState(false)
+
     const submitData = (data) => {
         const url = 'http://dct-application-form.herokuapp.com/users/application-form'
         axios.post(url, data)
             .then((res) => {
-                console.log(res.data)
                 setToggle(true)
             })
             .catch((err) => {
